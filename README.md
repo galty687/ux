@@ -1,2 +1,5 @@
-# ux
-A repo for the project of measuring UX with biometric data
+# 用户体验与技术传播
+课程教材仓库。
+
+
+
