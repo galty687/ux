@@ -7,14 +7,23 @@
 ===============================================
 
 
-《用户体验与技术传播》课程
+《用户体验与技术传播》课程主页。
 
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: 研究介绍
+   :maxdepth: 1
+   :caption: 课程导论
 
+   about/intro.md
    about/list
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 体验要素
+
+
+   ux-elements/ux-elements.md
 
 
