@@ -1,5 +1,11 @@
 # 课程资源
 
+## UX 定律
+
+- [Laws of UX](https://lawsofux.com/)
+
+
+
 ## UX 学习挑战
 
 1. https://uxtools.co/challenges/

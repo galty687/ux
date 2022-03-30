@@ -35,3 +35,20 @@
    tools/balsamiq
    tools/figma
    tools/optimal
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 人体测量工具
+
+   biometic-tools/eye-tracking
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 课程项目
+
+   class-projects/design-process
+   class-projects/reminder
+   class-projects/emotion-based-social
+   class-projects/sspku-redesign
+   class-projects/oceanbase-design
