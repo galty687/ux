@@ -41,6 +41,7 @@
    :caption: 人体测量工具
 
    biometic-tools/eye-tracking
+   biometic-tools/EEG.md
 
 
 .. toctree::
@@ -52,3 +53,10 @@
    class-projects/emotion-based-social
    class-projects/sspku-redesign
    class-projects/oceanbase-design
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 设计方法论
+
+   methodologies/emotional-design.md

@@ -54,6 +54,15 @@
 ## 设计方法
 
 - [Inclusive Design Toolkit](http://www.inclusivedesigntoolkit.com/)
+- [Positive Design](https://diopd.org/)
+
+
+
+## 研究工具
+
+- [Atlas.ti](http://atlasti.com)
+- [SPSS](https://www.ibm.com/products/spss-statistics)
+- [Emotive](https://www.emotiv.com) 
 
 
 
@@ -93,5 +102,6 @@
 
 - [短期记忆测试](http://faculty.washington.edu/chudler/stm0.html)
 - [Hick's law](https://www.psytoolkit.org/lessons/experiment_simple_choice_rts.html)
-- 
+
+  
 
