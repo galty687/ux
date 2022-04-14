@@ -61,3 +61,4 @@
 
    methodologies/emotional-design.md
    methodologies/cognitive-load-thoery.md
+   methodologies/info-class.md
