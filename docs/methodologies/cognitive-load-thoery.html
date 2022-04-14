@@ -18,7 +18,7 @@
     </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>课程安排 &mdash; 用户体验与技术传播 2022 文档</title>
+  <title>认知负荷理论 &mdash; 用户体验与技术传播 2022 文档</title>
   
 
   
@@ -81,8 +81,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
-    <link rel="next" title="课程资源" href="list.html" />
-    <link rel="prev" title="用户体验与技术传播" href="../index.html" /> 
+    <link rel="prev" title="情感化设计" href="emotional-design.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -128,13 +127,9 @@ commentsRunWhenDOMLoaded(addUtterances);
             
             
               <p class="caption"><span class="caption-text">课程导论</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">课程安排</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#v-s">用户体验 v.s 技术传播</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id2">课程安排</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="list.html">课程资源</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about/intro.html">课程安排</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/list.html">课程资源</a></li>
 </ul>
 <p class="caption"><span class="caption-text">体验要素</span></p>
 <ul>
@@ -160,9 +155,17 @@ commentsRunWhenDOMLoaded(addUtterances);
 <li class="toctree-l1"><a class="reference internal" href="../class-projects/oceanbase-design.html">OceanBase文档体验优化</a></li>
 </ul>
 <p class="caption"><span class="caption-text">设计方法论</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../methodologies/emotional-design.html">情感化设计</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../methodologies/cognitive-load-thoery.html">认知负荷理论</a></li>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="emotional-design.html">情感化设计</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">认知负荷理论</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#human-cognitive-architecture">Human Cognitive Architecture</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">长期记忆</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">工作记忆</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">认知负荷理论在产品设计中的应用</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -209,7 +212,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>课程安排</li>
+      <li>认知负荷理论</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -227,112 +230,37 @@ commentsRunWhenDOMLoaded(addUtterances);
            <div itemprop="articleBody">
             
   <div class="tex2jax_ignore mathjax_ignore section" id="id1">
-<h1>课程安排<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
-<div class="section" id="v-s">
-<h2>用户体验 v.s 技术传播<a class="headerlink" href="#v-s" title="永久链接至标题">¶</a></h2>
-<p>在2000年初，技术传播 (Technical Communication)，作为一门研究如何将使用产品需要的信息传递给用户的实用学科还是非常热门的，大家耳熟能详的，说明书，在线文档、视频、elearning等都是技术传播的重要媒介。</p>
-<p>早期的用户帮助都是独立于产品存在的，随着互联网的兴起，美国技术传播协会 (STC) 有一小批人觉得可以将用户帮助与产品融合，通过设计本身让产品更好用，最好能利用用户的先验知识 (prior knowlege)让用户免于学习，于是就产生了一个特别兴趣小组，这个小组，也是今日 UXPA 的前身。</p>
-<p>技术传播和用户体验两个学科有很大的交集，在美国市场上，大量的用户体验从业者，是从技术写作和技术传播转过去的。国内的话，因为做界面设计的更多的还是学美术的，现在也有一些实用心理学的人跨行做用户体验。</p>
-<p>整体上，本门课程是依托传播学和行为学的知识大厦，解决体验设计的问题。</p>
-</div>
+<h1>认知负荷理论<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>认知负荷理论 (Cognitive Load Theory)，主要解决如何降低Working Memory 的负荷，从而能让知识更好的进入到 Long-term Memory中。</p>
+<p>该理论主要应用在复杂认知的教程设计或者技术上难度较大的材料。</p>
+<div class="section" id="human-cognitive-architecture">
+<h2>Human Cognitive Architecture<a class="headerlink" href="#human-cognitive-architecture" title="永久链接至标题">¶</a></h2>
+<p>人的认知架构，有三部分组成：</p>
+<ul class="simple">
+<li><p>感官记忆 （sensory memory)</p></li>
+<li><p>工作记忆  (Working Memory)</p></li>
+<li><p>长期记忆 ( Long-term Memory)</p></li>
+</ul>
 <div class="section" id="id2">
-<h2>课程安排<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
-<table class="colwidths-auto docutils align-default">
-<thead>
-<tr class="row-odd"><th class="head"><p>课次</p></th>
-<th class="head"><p>时间</p></th>
-<th class="head"><p>课程</p></th>
-<th class="head"><p>内容</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>1</p></td>
-<td><p>2022.2.24</p></td>
-<td><p>导论</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>2</p></td>
-<td><p>2022.3.3</p></td>
-<td><p>用户体验要素</p></td>
-<td><p>设计思维、以人为中心的设计，体验要素层次</p></td>
-</tr>
-<tr class="row-even"><td><p>3</p></td>
-<td><p>2022.3.10</p></td>
-<td><p>用户研究</p></td>
-<td><p>虚拟角色、用户旅途</p></td>
-</tr>
-<tr class="row-odd"><td><p>4</p></td>
-<td><p>2022.3.17</p></td>
-<td><p>线框图与原型图工具</p></td>
-<td><p>Balsamiq、Figma</p></td>
-</tr>
-<tr class="row-even"><td><p>5</p></td>
-<td><p>2022.3.24</p></td>
-<td><p>眼动</p></td>
-<td><p>眼动追踪、用户阅读行为</p></td>
-</tr>
-<tr class="row-odd"><td><p>6</p></td>
-<td><p>2022.3.31</p></td>
-<td><p>脑电 EEG</p></td>
-<td><p>脑电EEG 、量表、情感化设计</p></td>
-</tr>
-<tr class="row-even"><td><p>7</p></td>
-<td><p>2022.4.7</p></td>
-<td><p>认知负荷与难度简化</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>8</p></td>
-<td><p>2022.4.14</p></td>
-<td><p>信息分类与菜单设计</p></td>
-<td><p>分类、元数据与卡片排序</p></td>
-</tr>
-<tr class="row-even"><td><p>9</p></td>
-<td><p>2022.4.21</p></td>
-<td><p><strong>讲座：</strong><br />人的信息处理模型</p></td>
-<td><p>中国标准化研究院人因工程实验室主任  /张运红</p></td>
-</tr>
-<tr class="row-odd"><td><p>10</p></td>
-<td><p>2022.4.28</p></td>
-<td><p>课程项目中期报告</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>11</p></td>
-<td><p>2022.5.5</p></td>
-<td><p>用户体验评估实验设计</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>12</p></td>
-<td><p>2022.5.12</p></td>
-<td><p>实验数据采集与分析</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>13</p></td>
-<td><p>2022.5.19</p></td>
-<td><p>用户帮助设计</p></td>
-<td><p>Wizard, Context sensitive help, online-tutorials, online documentation, assistants</p></td>
-</tr>
-<tr class="row-odd"><td><p>14</p></td>
-<td><p>2022.5.26</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>15</p></td>
-<td><p>2022.6.1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>16</p></td>
-<td><p>2002.6.7</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p></p></td>
-<td><p></p></td>
-<td><p>讲座2（待定）</p></td>
-<td><p>蚂蚁金服内容团队 / 腾讯CDC</p></td>
-</tr>
-</tbody>
-</table>
+<h3>长期记忆<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h3>
+<p>长期记忆是一个精密的知识存储结构了，有了这些世界知识，我们才能够理解、思考和解决问题。也称为 <strong>Schema</strong>。Schema本身是终身学习的，而且Schema本身也是嵌套的。进入到长期记忆，才能称为我们的知识。</p>
+</div>
+<div class="section" id="id3">
+<h3>工作记忆<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h3>
+<p>工作记忆是有认知极限的。认知极限是指工作记忆一次能处理的信息块。目前的研究结论是，每次可以处理的信息块 (chunks) 是7 +/- 2。</p>
+<p>感兴趣的读者，可以自己做一些实验。</p>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>认知负荷理论在产品设计中的<a class="reference external" href="http://www.woshipm.com/ucd/1423605.html">应用</a><a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
+<ol class="simple">
+<li><p>渐进形式呈现</p></li>
+<li><p>减少不必要功能的设计</p></li>
+<li><p>减少不必要的美化</p></li>
+<li><p>利用普遍的设计模式 （利用用户心智）</p></li>
+<li><p>利用近邻减负原则（相关的功能放在一起，Word的Ribbon设计）</p></li>
+<li><p>文本可读性</p></li>
+</ol>
 </div>
 </div>
 
@@ -344,10 +272,8 @@ commentsRunWhenDOMLoaded(addUtterances);
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="list.html" class="btn btn-neutral float-right" title="课程资源" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="../index.html" class="btn btn-neutral float-left" title="用户体验与技术传播" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="emotional-design.html" class="btn btn-neutral float-left" title="情感化设计" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

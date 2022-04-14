@@ -84,6 +84,10 @@
 
 
 
+## 糟糕设计
+
+-  [The worst volume control UI in the world](https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950)
+
 ## 心理学实验工具
 
 - [Lessons for use with PsyToolkit](https://www.psytoolkit.org/lessons/)

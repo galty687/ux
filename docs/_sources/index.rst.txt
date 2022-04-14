@@ -34,7 +34,7 @@
 
    tools/balsamiq
    tools/figma
-   tools/optimal
+   tools/card-sorting.md
 
 .. toctree::
    :maxdepth: 1
@@ -60,3 +60,4 @@
    :caption: 设计方法论
 
    methodologies/emotional-design.md
+   methodologies/cognitive-load-thoery.md
