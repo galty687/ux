@@ -55,6 +55,8 @@
 
 - [Inclusive Design Toolkit](http://www.inclusivedesigntoolkit.com/)
 - [Positive Design](https://diopd.org/)
+- [Plutchik’s Wheel of Emotions](https://www.6seconds.org/2022/03/13/plutchik-wheel-emotions/)
+- [可视化叙事动效设计指南](http://videoexplorer-ch.idvxlab.com/)
 
 
 
@@ -108,4 +110,8 @@
 - [Hick's law](https://www.psytoolkit.org/lessons/experiment_simple_choice_rts.html)
 
   
+
+## 用户体验设计师及作品集
+
+- [Elisabeth](https://www.fondendesigns.com/)
 
