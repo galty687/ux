@@ -109,9 +109,13 @@
 - [短期记忆测试](http://faculty.washington.edu/chudler/stm0.html)
 - [Hick's law](https://www.psytoolkit.org/lessons/experiment_simple_choice_rts.html)
 
-  
 
 ## 用户体验设计师及作品集
 
 - [Elisabeth](https://www.fondendesigns.com/)
+
+
+## UX量表
+
+- [QUIS](https://www.cs.umd.edu/hcil/quis/)
 

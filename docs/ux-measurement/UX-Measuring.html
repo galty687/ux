@@ -18,7 +18,7 @@
     </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>课程安排 &mdash; 用户体验与技术传播 2022 文档</title>
+  <title>用户体验度量 &mdash; 用户体验与技术传播 2022 文档</title>
   
 
   
@@ -80,9 +80,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 
     
     <link rel="index" title="索引" href="../genindex.html" />
-    <link rel="search" title="搜索" href="../search.html" />
-    <link rel="next" title="课程资源" href="list.html" />
-    <link rel="prev" title="用户体验与技术传播" href="../index.html" /> 
+    <link rel="search" title="搜索" href="../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -128,13 +126,9 @@ commentsRunWhenDOMLoaded(addUtterances);
             
             
               <p class="caption"><span class="caption-text">课程导论</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">课程安排</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#v-s">用户体验 v.s 技术传播</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id2">课程安排</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="list.html">课程资源</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about/intro.html">课程安排</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/list.html">课程资源</a></li>
 </ul>
 <p class="caption"><span class="caption-text">体验要素</span></p>
 <ul>
@@ -210,7 +204,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>课程安排</li>
+      <li>用户体验度量</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -228,112 +222,108 @@ commentsRunWhenDOMLoaded(addUtterances);
            <div itemprop="articleBody">
             
   <div class="tex2jax_ignore mathjax_ignore section" id="id1">
-<h1>课程安排<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
-<div class="section" id="v-s">
-<h2>用户体验 v.s 技术传播<a class="headerlink" href="#v-s" title="永久链接至标题">¶</a></h2>
-<p>在2000年初，技术传播 (Technical Communication)，作为一门研究如何将使用产品需要的信息传递给用户的实用学科还是非常热门的，大家耳熟能详的，说明书，在线文档、视频、elearning等都是技术传播的重要媒介。</p>
-<p>早期的用户帮助都是独立于产品存在的，随着互联网的兴起，美国技术传播协会 (STC) 有一小批人觉得可以将用户帮助与产品融合，通过设计本身让产品更好用，最好能利用用户的先验知识 (prior knowlege)让用户免于学习，于是就产生了一个特别兴趣小组，这个小组，也是今日 UXPA 的前身。</p>
-<p>技术传播和用户体验两个学科有很大的交集，在美国市场上，大量的用户体验从业者，是从技术写作和技术传播转过去的。国内的话，因为做界面设计的更多的还是学美术的，现在也有一些实用心理学的人跨行做用户体验。</p>
-<p>整体上，本门课程是依托传播学和行为学的知识大厦，解决体验设计的问题。</p>
-</div>
+<h1>用户体验度量<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>产品或服务设计后，就需要对其体验进行度量，这里将介绍常见的度量方法。</p>
 <div class="section" id="id2">
-<h2>课程安排<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<h2>总结性评价与形成性评价<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>以学生作文为例，总结性评估就是老师直接将论文给分为优良中差，并不给学生具体的分值。形成性评价，就需要给出具体的得分和扣分原因，解释为什么学生得分为良或不及格。</p>
+</div>
+<div class="section" id="id3">
+<h2>软件形成的总结性评估<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<p>使用量表对软件产品进行度量是常见的总结性评估方法。</p>
+<p>常见量表：</p>
+<ul class="simple">
+<li><p>SUS</p></li>
+<li><p>SUMI</p></li>
+</ul>
+<div class="section" id="sus">
+<h3>SUS的应用示例<a class="headerlink" href="#sus" title="永久链接至标题">¶</a></h3>
+<p>Gitlab的用研团队使用SUS来追踪用户感知到的系统可用性。</p>
+<p><strong><a class="reference external" href="https://gitlab.com/groups/gitlab-org/-/epics/5927">2022财年第一季度SUS分值</a></strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">68.1</span> <span class="p">(</span><span class="o">-</span><span class="mf">2.7</span> <span class="n">difference</span> <span class="kn">from</span> <span class="nn">Q4FY21</span><span class="p">)</span>
+
+<span class="o">-</span> <span class="mi">455</span> <span class="n">complete</span> <span class="n">responses</span>
+<span class="o">-</span> <span class="n">Margin</span> <span class="n">of</span> <span class="n">error</span><span class="p">:</span> <span class="o">+/-</span> <span class="mf">1.3</span>
+<span class="o">-</span> <span class="n">Grade</span><span class="p">:</span> <span class="n">C</span> <span class="o">/</span> <span class="n">Adjective</span><span class="p">:</span> <span class="s2">&quot;OK&quot;</span>
+</pre></div>
+</div>
+<p>有了该总分（68.1分），用研团队或管理者就可以对公司的系统有一个宏观了解，或者基于此设置部门的KPI，例如Gitlab Q1FY22比 Q4FY21 还降低了，该指标的降低，必然会引起重视要进一步分析原因。</p>
+<p>Summative Evaluation可以从宏观层面给出一个趋势性的说明，对于细节的成因是不了解的。</p>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>形成性评估<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
+<p>和总结性评估相比，形成性评估则可以展示更多的细节，让用研人员能清楚的了解可用性高或低的原因。</p>
+<p>形成性评估关键步骤：</p>
+<ol class="simple">
+<li><p>确定典型用户</p></li>
+<li><p>确定典型任务</p></li>
+<li><p>请典型用户完成典型任务</p></li>
+<li><p>观察和记录实验过程</p></li>
+<li><p>分析实验数据（任务完成率，完成时间、出错数、出错类型）</p></li>
+</ol>
+</div>
+<div class="section" id="id5">
+<h2>量表<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id6">
+<h3>量表与问卷的区别<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h3>
+<p>量表是度量工具，可以等同于体重计或温度计。就像体重计可以量出一个人的体重，抑郁量表可以量出来一个人是否抑郁。</p>
+<p>量表作为一个度量工具，是需要有一定的信度和效度的。就以最近的体温枪为例，这种测温方式，使用了红外线进行非接触式测温，在出厂前一定要做校验的。一个是信度，有的体温枪，每次测温度都不一样，第一次测31，第二次33，第三次有35了。类似于量表，同一个人用同一个量表，有的时候量出来也不一样，就是内部一致性不够。</p>
+<p>还有就是效度了，就是体温枪能不能量出体温，这个时候也需要跟传统水银温度计做一个校准的，看结果是否一致。</p>
+<p>一个量表，尤其是标准量表一定是需要精密测试，然后才能作为检测工具的，所以我们在做用户体验度量的时候，可以尽可能选用标准量表。</p>
+</div>
+<div class="section" id="id7">
+<h3>量表的常见研制过程<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h3>
+<p>以SUMI为例，研究者需要确定度量目标……（待补充）</p>
+</div>
+<div class="section" id="id8">
+<h3>常见量表<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h3>
 <table class="colwidths-auto docutils align-default">
 <thead>
-<tr class="row-odd"><th class="head"><p>课次</p></th>
-<th class="head"><p>时间</p></th>
-<th class="head"><p>课程</p></th>
-<th class="head"><p>内容</p></th>
+<tr class="row-odd"><th class="head"><p>指标</p></th>
+<th class="head"><p>量表</p></th>
+<th class="head"><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>1</p></td>
-<td><p>2022.2.24</p></td>
-<td><p>导论</p></td>
+<tr class="row-even"><td><p>系统可用性</p></td>
+<td><p>SUMI</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>2</p></td>
-<td><p>2022.3.3</p></td>
-<td><p>用户体验要素</p></td>
-<td><p>设计思维、以人为中心的设计，体验要素层次</p></td>
-</tr>
-<tr class="row-even"><td><p>3</p></td>
-<td><p>2022.3.10</p></td>
-<td><p>用户研究</p></td>
-<td><p>虚拟角色、用户旅途</p></td>
-</tr>
-<tr class="row-odd"><td><p>4</p></td>
-<td><p>2022.3.17</p></td>
-<td><p>线框图与原型图工具</p></td>
-<td><p>Balsamiq、Figma</p></td>
-</tr>
-<tr class="row-even"><td><p>5</p></td>
-<td><p>2022.3.24</p></td>
-<td><p>眼动</p></td>
-<td><p>眼动追踪、用户阅读行为</p></td>
-</tr>
-<tr class="row-odd"><td><p>6</p></td>
-<td><p>2022.3.31</p></td>
-<td><p>脑电 EEG</p></td>
-<td><p>脑电EEG 、量表、情感化设计</p></td>
-</tr>
-<tr class="row-even"><td><p>7</p></td>
-<td><p>2022.4.7</p></td>
-<td><p>认知负荷与难度简化</p></td>
+<tr class="row-odd"><td><p>满意度</p></td>
+<td><p>QUIS</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>8</p></td>
-<td><p>2022.4.14</p></td>
-<td><p>信息分类与菜单设计</p></td>
-<td><p>分类、元数据与卡片排序</p></td>
-</tr>
-<tr class="row-even"><td><p>9</p></td>
-<td><p>2022.4.21</p></td>
-<td><p><strong>讲座：</strong><br />人的信息处理模型</p></td>
-<td><p>中国标准化研究院人因工程实验室主任  /张运红</p></td>
-</tr>
-<tr class="row-odd"><td><p>10</p></td>
-<td><p>2022.4.28</p></td>
-<td><p>课程项目中期报告</p></td>
+<tr class="row-even"><td><p>体验</p></td>
+<td><p><a class="reference external" href="https://www.ueq-online.org/">UEQ</a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p>11</p></td>
-<td><p>2022.5.5</p></td>
-<td><p>用户体验评估实验设计</p></td>
+<tr class="row-odd"><td><p>Online Trus</p></td>
 <td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>12</p></td>
-<td><p>2022.5.12</p></td>
-<td><p>实验数据采集与分析</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>13</p></td>
-<td><p>2022.5.19</p></td>
-<td><p>用户帮助设计</p></td>
-<td><p>Wizard, Context sensitive help, online-tutorials, online documentation, assistants</p></td>
-</tr>
-<tr class="row-odd"><td><p>14</p></td>
-<td><p>2022.5.26</p></td>
-<td><p>形成性评估</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>15</p></td>
-<td><p>2022.6.1</p></td>
-<td><p>讲座：<br/>腾讯CDC讲座</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>16</p></td>
-<td><p>2002.6.7</p></td>
-<td><p>课程项目报告</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p></p></td>
 <td><p></p></td>
-<td><p>课程答疑</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+<div class="section" id="reference">
+<h2>Reference<a class="headerlink" href="#reference" title="永久链接至标题">¶</a></h2>
+<ol class="simple">
+<li><p><a class="reference external" href="https://uxplanet.org/the-abcs-of-measuring-the-user-experience-of-your-product-or-service-f079d0676d5e">The ABC’s of measuring the user experience of your product or service</a></p></li>
+<li><p><a class="reference external" href="https://www.nngroup.com/articles/rating-scales/">Rating Scales in UX Research: Likert or Semantic Differential?</a></p></li>
+</ol>
 </div>
 </div>
 
@@ -342,15 +332,6 @@ commentsRunWhenDOMLoaded(addUtterances);
            
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="list.html" class="btn btn-neutral float-right" title="课程资源" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="../index.html" class="btn btn-neutral float-left" title="用户体验与技术传播" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>

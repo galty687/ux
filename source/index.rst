@@ -62,3 +62,10 @@
    methodologies/emotional-design.md
    methodologies/cognitive-load-thoery.md
    methodologies/info-class.md
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 用户体验度量
+
+   ux-measurement/UX-Measuring.md   
