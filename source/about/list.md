@@ -102,6 +102,8 @@
 
 - [UX Directory](https://abetteruserexperience.com/ux-directory/)
 
+- [UI Design Tools](https://uxtools.co/tools/design)
+
 
 
 ## 有趣的实验
@@ -119,3 +121,8 @@
 
 - [QUIS](https://www.cs.umd.edu/hcil/quis/)
 
+
+
+## 相关院系
+
+1. [University of Washington, HCDE](https://www.hcde.washington.edu/)

@@ -63,9 +63,15 @@
    methodologies/cognitive-load-thoery.md
    methodologies/info-class.md
 
+.. toctree::
+   :maxdepth: 1
+   :caption: 用户帮助
+
+   user-assistance/user-assistance.md
 
 .. toctree::
    :maxdepth: 1
    :caption: 用户体验度量
 
-   ux-measurement/UX-Measuring.md   
+   ux-measurement/UX-Measuring.md
+   ux-measurement/ux-analytics.md   

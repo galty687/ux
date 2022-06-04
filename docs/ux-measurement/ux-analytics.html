@@ -1,0 +1,362 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-45957014-11']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>用户行为分析工具 &mdash; 用户体验与技术传播 2022 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "galty687/ux");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> 用户体验与技术传播
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">课程导论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about/intro.html">课程安排</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/list.html">课程资源</a></li>
+</ul>
+<p class="caption"><span class="caption-text">体验要素</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ux-elements/ux-elements.html">用户体验要素</a></li>
+</ul>
+<p class="caption"><span class="caption-text">设计工具</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tools/balsamiq.html">Balsamiq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/figma.html">Figma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/card-sorting.html">Optimal Workshop</a></li>
+</ul>
+<p class="caption"><span class="caption-text">人体测量工具</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../biometic-tools/eye-tracking.html">眼动仪</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../biometic-tools/EEG.html">EEG</a></li>
+</ul>
+<p class="caption"><span class="caption-text">课程项目</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../class-projects/design-process.html">课程项目设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../class-projects/reminder.html">Get Things Done</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../class-projects/emotion-based-social.html">基于情绪的社交</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../class-projects/sspku-redesign.html">学院网站改版</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../class-projects/oceanbase-design.html">OceanBase文档体验优化</a></li>
+</ul>
+<p class="caption"><span class="caption-text">设计方法论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../methodologies/emotional-design.html">情感化设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodologies/cognitive-load-thoery.html">认知负荷理论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodologies/info-class.html">信息分类</a></li>
+</ul>
+<p class="caption"><span class="caption-text">用户体验度量</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="UX-Measuring.html">用户体验度量</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">用户体验与技术传播</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>用户行为分析工具</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="tex2jax_ignore mathjax_ignore section" id="id1">
+<h1>用户行为分析工具<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>使用 分析工具持续性地观察和研究用户行为也是一个非常重要的用户体验研究方法。市面上有大量的分析工具，本文主要介绍 Google Analytics。</p>
+<p>其他常用分析工具**</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://matomo.org/">Matomo</a> （收购了原开源工具 Piwik）</p></li>
+<li><p><a class="reference external" href="https://piwik.pro/">PIWIK Pro</a></p></li>
+<li><p><a class="reference external" href="https://posthog.com/">Posthog</a></p></li>
+<li><p><a class="reference external" href="https://www.hotjar.com/">Hotjar</a></p></li>
+</ul>
+<div class="section" id="id2">
+<h2>常见指标<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p><strong>用户</strong></p>
+<ul class="simple">
+<li><p>性别</p></li>
+<li><p>年龄</p></li>
+<li><p>地域</p></li>
+<li><p>浏览顺序</p></li>
+<li><p>设备操作系统、浏览器、语言</p></li>
+<li><p>等等</p></li>
+</ul>
+<p><strong>页面</strong></p>
+<ul class="simple">
+<li><p>Page Views</p></li>
+<li><p>Unique Page Views</p></li>
+<li><p>Sessions</p></li>
+<li><p>Time on Page</p></li>
+<li><p>Bounce | Bounce Rate</p></li>
+<li><p>Exit | Exit rate</p></li>
+</ul>
+<div class="section" id="bounce">
+<h3>Bounce<a class="headerlink" href="#bounce" title="永久链接至标题">¶</a></h3>
+<p>Bounce指跳出，用户从一个页面进来后，然后又走了。跳出率越高，表示整个站点的吸引力不够，无法引导用户进一步探索。但是在一定的场景，例如用户技术文档，一般用户都是需要快速找到所需的内容，然后使用该内容完成任务，这个时候跳出率高反而是好现象。</p>
+</div>
+<div class="section" id="exit">
+<h3>Exit<a class="headerlink" href="#exit" title="永久链接至标题">¶</a></h3>
+<p>退出，指的是用户最后离开站点的页面，如果用户是从旅途的末端退出则证明网站设计良好，如果用户在你的作品集那退出，则可以说明一些问题，一般来说作品集是说服读者的关键环节，用户从作品集退出则表明用户没有被吸引。</p>
+</div>
+</div>
+<div class="section" id="google-tag-manger">
+<h2>Google Tag Manger<a class="headerlink" href="#google-tag-manger" title="永久链接至标题">¶</a></h2>
+<p>使用 Google Analytics 能统计的信息已经比较多，但是如果需要对用户的行为做更精细的分析和统计，则需要结合Google Tag Manger来分析。</p>
+<p>大的步骤：</p>
+<ol class="simple">
+<li><p>配置 GTM并跟网站关联</p></li>
+<li><p>创建 Tag 和 Trigger</p></li>
+<li><p>测试 GTM，无误后正式追踪</p></li>
+<li><p>在 Google Analytics 的 Events中查看用户行为数据</p></li>
+</ol>
+<p>例如以追踪我个人网站上，用户是否点击了我的邮箱或微博为例，看如何追踪此类行为。</p>
+<div class="section" id="gtm">
+<h3>配置 GTM并跟网站关联<a class="headerlink" href="#gtm" title="永久链接至标题">¶</a></h3>
+<p>（to be updated)</p>
+</div>
+<div class="section" id="tag-trigger">
+<h3>创建 Tag 和 Trigger<a class="headerlink" href="#tag-trigger" title="永久链接至标题">¶</a></h3>
+<ol class="simple">
+<li><p>在 <code class="docutils literal notranslate"><span class="pre">Tags</span></code>页面，选择 <code class="docutils literal notranslate"><span class="pre">New</span></code>进入Tags创建页面</p></li>
+<li><p>按照提示分别输入 Tag 相关的信息，具体如下图：
+<img alt="click-weibo" src="../_images/click-weibo.png" /></p></li>
+<li><p>在 Trigger 处配置该标签的触发行为。实现方法有很多种，这里采用 click links, linkes中包含 weibo 作为行为出发的条件。
+<img alt="click-links-contain-weibo" src="../_images/click-links-contain-weibo.png" /></p></li>
+</ol>
+</div>
+<div class="section" id="tag-assistant-tag">
+<h3>在Tag Assistant中测试 Tag<a class="headerlink" href="#tag-assistant-tag" title="永久链接至标题">¶</a></h3>
+<ol class="simple">
+<li><p>点击 Workspage 页面的 Preview 按钮</p></li>
+<li><p>在弹出的助手窗口中输入需要测试的域名</p></li>
+<li><p>在弹出的页面，点击weibo按钮，并在 Tag Assistant页面查看是否成功。效果如下图：
+<img alt="tag-fired" src="../_images/tag-fired.png" /></p></li>
+</ol>
+</div>
+<div class="section" id="google-ua">
+<h3>在Google UA 中查看事件分析<a class="headerlink" href="#google-ua" title="永久链接至标题">¶</a></h3>
+<p>在 Google UA 的 Realtime 中可以查看实时的用户行为，例如下图表示有1用户点击了邮箱。</p>
+<p><img alt="email-clicking-event" src="../_images/email-clicking-event.png" /></p>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>参考<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<ol class="simple">
+<li><p><a class="reference external" href="https://www.analyticsmania.com/post/google-tag-manager-preview-mode-not-working/">Is Google Tag Manager Preview Mode Not Working?</a></p></li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; 版权所有 PKUX LAB
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

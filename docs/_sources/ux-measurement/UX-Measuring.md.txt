@@ -23,7 +23,7 @@
 
 
 
-Gitlab的用研团队使用SUS来追踪用户感知到的系统可用性。
+Gitlab的用研团队[使用SUS](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/system-usability-scale/)来追踪用户感知到的系统可用性。
 
 
 
@@ -79,9 +79,10 @@ Summative Evaluation可以从宏观层面给出一个趋势性的说明，对于
 
 ### 量表的常见研制过程
 
-以SUMI为例，研究者需要确定度量目标……（待补充）
+以[SUMI为例](https://sumi.uxp.ie/)，研究者需要确定度量目标……（待补充）
 
-
+- [量表内容](https://sumi.uxp.ie/en/)
+- [量表报告示例](https://sumi.uxp.ie/about/400example/index.html)
 
 ### 常见量表
 
@@ -99,7 +100,9 @@ Summative Evaluation可以从宏观层面给出一个趋势性的说明，对于
 
 
 
+## Tools
 
+- [常见统计值计算器](https://measuringu.com/calc/)
 
 ## Reference
 
