@@ -49,10 +49,7 @@
    :caption: 课程项目
 
    class-projects/design-process
-   class-projects/reminder
-   class-projects/emotion-based-social
-   class-projects/sspku-redesign
-   class-projects/oceanbase-design
+
 
 
 .. toctree::

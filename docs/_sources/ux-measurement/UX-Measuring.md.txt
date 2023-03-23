@@ -88,15 +88,15 @@ Summative Evaluation可以从宏观层面给出一个趋势性的说明，对于
 
 
 
-| 指标          | 量表                                 | 说明   |
-| ----------- | ---------------------------------- | ---- |
-| 系统可用性       | SUMI                               |      |
-| 满意度         | QUIS                               |      |
-| 体验          | [UEQ](https://www.ueq-online.org/) |      |
-| Online Trus |                                    |      |
-|             |                                    |      |
-|             |                                    |      |
-|             |                                    |      |
+| 指标              | 量表                                            | 说明                                                         |
+| ----------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| 系统可用性        | SUMI                                            |                                                              |
+| 满意度            | QUIS                                            |                                                              |
+| 体验              | [UEQ](https://www.ueq-online.org/)              |                                                              |
+| Online Trust      |                                                 |                                                              |
+| 正向情绪/负向情绪 | **PANAS**                                       | [更多介绍](https://positivepsychology.com/positive-and-negative-affect-schedule-panas/) |
+| 用户体验          | [supr-q](https://measuringu.com/product/suprq/) |                                                              |
+|                   |                                                 |                                                              |
 
 
 
