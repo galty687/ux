@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45957014-11"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-45957014-11');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EEG &mdash; 用户体验与技术传播 2022 文档</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "galty687/ux");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+        <script src="../_static/translations.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="课程项目设计" href="../class-projects/design-process.html" />
+    <link rel="prev" title="眼动仪" href="eye-tracking.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            用户体验与技术传播
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">课程导论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about/intro.html">课程安排</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/list.html">课程资源</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">体验要素</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ux-elements/ux-elements.html">用户体验要素</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">设计工具</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tools/balsamiq.html">Balsamiq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/figma.html">Figma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/card-sorting.html">Optimal Workshop</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">人体测量工具</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="eye-tracking.html">眼动仪</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">EEG</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">脑电信号的意义</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#delta">Delta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#theta">Theta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#alpha">Alpha</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#beta">Beta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gamma">Gamma</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">课程项目</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../class-projects/design-process.html">课程项目设计</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">设计方法论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../methodologies/emotional-design.html">情感化设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodologies/cognitive-load-thoery.html">认知负荷理论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodologies/info-class.html">信息分类</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">用户帮助</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../user-assistance/user-assistance.html">用户帮助</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user-assistance/user-assistance.html#id2">技术文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user-assistance/user-assistance.html#id3">快速入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user-assistance/user-assistance.html#id4">使用过程中的帮助</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user-assistance/user-assistance.html#id5">相应的职位</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">用户体验度量</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ux-measurement/UX-Measuring.html">用户体验度量</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ux-measurement/ux-analytics.html">用户行为分析工具</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">用户体验与技术传播</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">EEG</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="eeg">
+<h1>EEG<a class="headerlink" href="#eeg" title="此标题的永久链接"></a></h1>
+<p>通过仪器可以采集大脑不同区位的电压变化，形成脑电图。在这些脑电图中，研究人员发现了5种常见的波形。</p>
+<p><img alt="eeg" src="../_images/eeg.png" /></p>
+<section id="id1">
+<h2>脑电信号的意义<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h2>
+<section id="delta">
+<h3>Delta<a class="headerlink" href="#delta" title="此标题的永久链接"></a></h3>
+<p>Delta(1-4 Hz)–在睡眠实验室中，Delta波被用来评估睡眠深度。节奏越强，睡眠越深。Delta波功率的增加(增加的增量波记录数量)被发现与内部工作记忆任务的注意力增加有关</p>
+</section>
+<section id="theta">
+<h3>Theta<a class="headerlink" href="#theta" title="此标题的永久链接"></a></h3>
+<p>Theta(4 – 7 Hz)– Theta与广泛的认知处理相关，例如记忆编码和检索以及认知工作量。每当我们遇到困难的任务时 (例如，从100开始倒数，或者当回忆起下班回家的路时），Theta波就会变得更加突出。Theta也与疲劳程度增加有关。</p>
+</section>
+<section id="alpha">
+<h3>Alpha<a class="headerlink" href="#alpha" title="此标题的永久链接"></a></h3>
+<p>Alpha(7–12 Hz)–每当我们闭上眼睛,让自己进入平静状态时，Alpha波就会接管。处于放松清醒状态时，Alpha值会增加。生物反馈训练通常使用Alpha波来监测放松情况。它们也与抑制和注意有关。</p>
+</section>
+<section id="beta">
+<h3>Beta<a class="headerlink" href="#beta" title="此标题的永久链接"></a></h3>
+<p>Beta(12 – 30 Hz)-在运动区域内，随着我们计划或执行任何身体部位的运动，Beta频率会变得更强[5]。有趣的是，随着我们观察其他人的身体运动，Beta波的这种增加也很明显。我们的大脑似乎模仿了他们的肢体运动，这表明我们大脑中存在着一个复杂的“镜像神经元系统”，该系统可能与Beta频率协调。</p>
+</section>
+<section id="gamma">
+<h3>Gamma<a class="headerlink" href="#gamma" title="此标题的永久链接"></a></h3>
+<p>Gamma(&gt; 30 Hz，通常为40 Hz)–一些研究人员认为，Gamma波反映了注意力的集中，并作为载波频率来促进大脑区域之间的数据交换。其他人则将伽玛与快速的眼球运动(所谓的微扫视)联系起来，它们被认为是感觉处理和信息吸收的组成部分</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="eye-tracking.html" class="btn btn-neutral float-left" title="眼动仪" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="../class-projects/design-process.html" class="btn btn-neutral float-right" title="课程项目设计" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 PKUX LAB.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

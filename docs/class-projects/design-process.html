@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45957014-11"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-45957014-11');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>课程项目设计 &mdash; 用户体验与技术传播 2022 文档</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "galty687/ux");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+        <script src="../_static/translations.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="情感化设计" href="../methodologies/emotional-design.html" />
+    <link rel="prev" title="EEG" href="../biometic-tools/EEG.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            用户体验与技术传播
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">课程导论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about/intro.html">课程安排</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/list.html">课程资源</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">体验要素</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ux-elements/ux-elements.html">用户体验要素</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">设计工具</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tools/balsamiq.html">Balsamiq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/figma.html">Figma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/card-sorting.html">Optimal Workshop</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">人体测量工具</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../biometic-tools/eye-tracking.html">眼动仪</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../biometic-tools/EEG.html">EEG</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">课程项目</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">课程项目设计</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">课程项目</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">通用设计流程</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">课程实践项目阶段性提交：用研</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">用研步骤：</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">用研输出：</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id7">提交物</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">设计方法论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../methodologies/emotional-design.html">情感化设计</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodologies/cognitive-load-thoery.html">认知负荷理论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodologies/info-class.html">信息分类</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">用户帮助</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../user-assistance/user-assistance.html">用户帮助</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user-assistance/user-assistance.html#id2">技术文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user-assistance/user-assistance.html#id3">快速入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user-assistance/user-assistance.html#id4">使用过程中的帮助</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user-assistance/user-assistance.html#id5">相应的职位</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">用户体验度量</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ux-measurement/UX-Measuring.html">用户体验度量</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ux-measurement/ux-analytics.html">用户行为分析工具</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">用户体验与技术传播</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">课程项目设计</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>课程项目设计<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<p>请同学们围绕自己感兴趣的领域，进行产品或服务设计，在设计过程中，将课堂上所讲知识灵活应用，最终完成整个作品。
+课程项目需要同学们按照通用设计过程进行，并逐步输出各阶段产出。</p>
+<section id="id2">
+<h2>课程项目<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
+<ul class="simple">
+<li><p>一款社交工具</p></li>
+<li><p>写作疗愈</p></li>
+<li><p>找室友</p></li>
+<li><p>智慧博物馆导览</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2>通用设计流程<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
+<ol class="arabic simple">
+<li><p>明确产品与设计目标，例如设计一款模块化写作工具；</p></li>
+<li><p>竞品分析，对比分析同类产品、发现各自的优缺点等；</p></li>
+<li><p>用户研究，根据设计目标做用户研究，发现用户需求及解决方案等；</p></li>
+<li><p>线框图，将用户需求逐步变成功能；</p></li>
+<li><p>原型图，将线框图逐步完善成接近成品的效果图，用于测试和开发；</p></li>
+<li><p>原型测试。邀请典型用户测试，在正式开发前发现可能的问题，并修正。</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h2>课程实践项目阶段性提交：用研<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h2>
+<p>用研目的</p>
+<p>产品需要以用户为中心，围绕用户需求提供相应功能，从而让产品好用易用。用研是发现用户需求的重要过程，也是体验设计成败的重要环节。</p>
+<section id="id5">
+<h3>用研步骤：<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h3>
+<ol class="arabic simple">
+<li><p>访谈。用研初始阶段，通过访谈构建对用户的直观了解，并能逐步明确需要获取的信息；</p></li>
+<li><p>焦点小组。具有类似背景的一组用户对某需求或功能的反馈；</p></li>
+<li><p>问卷。基于访谈结果设计问卷，广泛分发和收集用户反馈。</p></li>
+<li><p>分析访谈和问卷结果。使用<a class="reference external" href="https://atlasti.com/">ATLAS.ti</a>等定性分析工具分析访谈文本，使用SPSS工具进行描述性统计与数据检验。</p></li>
+</ol>
+</section>
+<section id="id6">
+<h3>用研输出：<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h3>
+<ul class="simple">
+<li><p>虚拟角色</p></li>
+<li><p>用户旅途地图</p></li>
+</ul>
+<section id="id7">
+<h4>提交物<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h4>
+<ul class="simple">
+<li><p>虚拟角色</p></li>
+<li><p>用户旅途地图</p></li>
+<li><p>访谈提纲、访谈记录</p></li>
+<li><p>问卷、问卷结果</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="../biometic-tools/EEG.html" class="btn btn-neutral float-left" title="EEG" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="../methodologies/emotional-design.html" class="btn btn-neutral float-right" title="情感化设计" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 PKUX LAB.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
