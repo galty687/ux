@@ -19,6 +19,7 @@
 
 ## 会议
 1. [ACM SIGCHI](https://dl.acm.org/conference/chi)
+1. [亚洲触觉大会](http://asiahaptics2022.com/)
 
 
 
