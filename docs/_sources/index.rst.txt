@@ -35,6 +35,7 @@
    tools/balsamiq
    tools/figma
    tools/card-sorting.md
+   tools/optimal.md
 
 .. toctree::
    :maxdepth: 1
@@ -42,6 +43,7 @@
 
    biometic-tools/eye-tracking
    biometic-tools/EEG.md
+   biometic-tools/GSR.md
 
 
 .. toctree::
